@@ -10,13 +10,13 @@
 | 7  | UNDO  | 关于撤销类的  |
 | 8  | SUBMODULE  | 关于子模块  |
 
-##CREATE
+## CREATE
 - 从远程仓库获取代码
 `git clone ssh://user@domain.com/repo.git`
 - 初始化本地仓库
 `git init`
 
-##LOCAL CHANGES
+## LOCAL CHANGES
 - 查看仓库的状态,(显示已改动的文件)
 `git status`
 - 比较工作区与最新本地版本库
@@ -37,7 +37,7 @@
 - 修改上一次提交日志
 `$ git commit --amend`
 
-##COMMIT HISTORY
+## COMMIT HISTORY
 - 查看提交日志
 `git log`
 - 跟踪查看某个文件的历史修改记录
@@ -45,7 +45,7 @@
 - 查看文件是谁什么时候修改什么地方
 `git blame <file>`
 
-##BRANCHES & TAGS
+## RANCHES & TAGS
 - 查看所有分支（包括远程分支）
 `git branch -a`
 - 查看所有分支（包括远程分支）和最后一次提交日志
@@ -70,7 +70,7 @@
 `git push origin tagname`
 `git push origin --tags`
 
-##UPDATE & PUBLISH
+## UPDATE & PUBLISH
 - 列出所有的仓库地址
 `git remote -v`
 - 查看某个仓库的信息
@@ -88,7 +88,7 @@
 - 上传标签
 `git push --tags`
 
-##MERGE & REBASE
+## MERGE & REBASE
 - 合并目标分支到本地分支
 `git merge <branch>`
 - 合并分支，但是不合并提交记录（commit），rebase合并如果有冲突则一个一个文件的去合并解决冲突
@@ -104,7 +104,7 @@
 - 删除已手动合并的文件
 `git rm <resolved-file>`
 
-##UNDO
+## UNDO
 - 回退到最近一个提交
 `git reset --hard HEAD`
 - 回退到上一次提交（倒数第二次）
@@ -120,7 +120,7 @@
 - 回退到某个提交，并保留以更改的文件
 `git reset --keep <commit>`
 
-##SUBMODULE
+## SUBMODULE
 - 添加子模块
 `git submodule add https://github.com/xxxxxx/Test`
 - 克隆你有子模块的项目
